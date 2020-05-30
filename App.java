@@ -14,7 +14,7 @@ public class App {
 			System.out.println("Hello World!");
 			
 			
-			System.setProperty ("webdriver.ie.driver","C:/eBBS/Project/Explore/ArunR2/IEDriverServer32.exe" );
+			System.setProperty ("webdriver.ie.driver","./IEDriverServer32.exe" );
   			driver = (WebDriver) new InternetExplorerDriver(); 
   			
 			//driver.get("https://www.truecaller.com/auth/sign-in");
