@@ -13,9 +13,7 @@ public class App {
 		try {
 			System.out.println("Hello World!");
 			
-			//C:/eBBS/Project/Explore/IEDriverServer_Win32_3.14.0/IEDriverServer32.exe
-			//C:/eBBS/Project/Explore/IEDriverServer_x64_3.150.1/IEDriverServer.exe
- 			//C:/eBBS/Project/Explore/ArunR2/IEDriverServer32.exe
+			
 			System.setProperty ("webdriver.ie.driver","C:/eBBS/Project/Explore/ArunR2/IEDriverServer32.exe" );
   			driver = (WebDriver) new InternetExplorerDriver(); 
   			
